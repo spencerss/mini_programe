@@ -1,0 +1,5 @@
+<!--pages/home/home.wxml-->
+<text>hello {{name}}</text>
+<view wx:for="{{students}}">{{item.name}}</view>
+<view>当前计数：{{counter}}</view>
+<button bindtap="handleClick">+</button>
